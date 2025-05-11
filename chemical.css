@@ -1,0 +1,31 @@
+@media (color) {
+	::selection { background: fuchsia; color: mediumblue }
+	.enzyme { background: purple; color: linen }
+	.plaza { background: rebeccapurple; color: linen }
+	.welcome { background: darkslateblue; color: linen }
+	.twilite { background: darkviolet; color: linen }
+	.soul { background: sandybrown; color: purple }
+	.luna { background: gainsboro; color: darkviolet }
+	.mercury { background: mediumaquamarine; color: indigo }
+	.venus { background: khaki; color: rebeccapurple }
+	.mars { background: violet; color: maroon }
+	.jupiter { background: wheat; color: brown }
+	.saturn { background: plum; color: purple }
+	.uranus { background: paleturquoise; color: blue }
+	.neptune { background: deepskyblue; color: indigo }
+	.pluto { background: mediumpurple; color: black }
+}
+
+@media (prefers-contrast: more) {
+	.twilite { background: darkmagenta }
+	.soul { background: peachpuff }
+	.luna { color: indigo }
+	.mercury { background: aquamarine }
+	.venus { color: indigo }
+	.mars { color: black }
+	.jupiter { color: maroon }
+	.saturn { color: navy }
+	.uranus { color: darkslateblue }
+	.neptune { color: navy }
+	.pluto { background: orchid }
+}
